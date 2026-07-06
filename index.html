@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habibe Davut | Kişisel Portfolyo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Genel Ayarlar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #0056b3;
+        }
+        
+        /* Başlık ve Menü (Header) */
+        header {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        header h2 {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #d1d8e0;
+        }
+        
+        /* İçerik Konteyneri */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* Bölümler (Sections) */
+        section {
+            background: #fff;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        section h3 {
+            color: #2c5364;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e6ed;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        /* Listeler */
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        
+        /* Footer (İletişim) */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #203a43;
+            color: #fff;
+            margin-top: 20px;
+        }
+        footer p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .contact-btn {
+            display: inline-block;
+            background-color: #0056b3;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .contact-btn:hover {
+            background-color: #004494;
+        }
+        
+        /* Mobil Uyumluluk */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌐 HABİBE DAVUT</h1>
+        <h2>Bilgisayar Mühendisliği Öğrencisi | Kuantum Teknolojileri Araştırmacısı | Geleceğin Savunma Sanayii Mühendisi</h2>
+    </header>
+
+    <div class="container">
+        
+        <section id="hakkimda">
+            <h3>👨‍💻 Hakkımda</h3>
+            <p>
+                Merhaba, ben Habibe! Selçuk Üniversitesi Bilgisayar Mühendisliği bölümünde lisans eğitimime devam ediyorum. 
+                Bilgisayar Programcılığı bölümünden Dikey Geçiş Sınavı (DGS) ile mühendisliğe adım attım. 
+                Akademik başarımı daha da ileriye taşımak için not ortalamamı 3.5'in üzerine çıkarmayı hedefliyor; 
+                vizyonumu küresel çapta genişletmek için eğitim hayatıma İngilizce ve Almanca çalışmalarımı da entegre ediyorum.
+            </p>
+            <br>
+            <p>
+                En büyük motivasyon kaynağım, ulusal teknolojik bağımsızlık ve egemenlik vizyonu doğrultusunda, 
+                yerli ve milli savunma sanayii projelerine akademik ve teknik katkı sağlamak. 
+                Eğitimim ve kişisel yaşamım ekseninde sık sık Antalya ve Konya arasında mekik dokuyorum.
+            </p>
+        </section>
+
+        <section id="yetenekler">
+            <h3>🛠️ Teknik Yetkinlikler</h3>
+            <p>Algoritmik düşünceyi modern teknolojilerle birleştirerek çeşitli ekosistemlerde kendimi geliştiriyorum:</p>
+            <br>
+            <ul>
+                <li><strong>Programlama ve Yazılım Geliştirme:</strong> C dilinde, özellikle pointer mimarisi ve bellek yönetimi uygulamalarında yetkinlik. C# dili ve Nesneye Yönelik Programlama (Yusuf Eryeşil'in dersleriyle pekiştirilmiş) pratikleri.</li>
+                <li><strong>Geleceğin Teknolojileri:</strong> Kuantum hesaplama (Qiskit & kuantum devreleri) ve Büyük Dil Modelleri (LLM) ile uygulama geliştirme metodolojileri.</li>
+                <li><strong>Sistem ve Ağ Altyapısı:</strong> Linux sistem yönetimi, siber güvenlik ve ağ (network) temelleri.</li>
+            </ul>
+        </section>
+
+        <section id="projeler">
+            <h3>🚀 Projeler ve Profesyonel Deneyimler</h3>
+            <p>Teorik bilgimi sahada ve yarışmalarda pratiğe dökmeyi seviyorum:</p>
+            <br>
+            <ul>
+                <li><strong>Kuantum Destekli Hesaplamalı Akışkanlar Dinamiği Çözücüsü:</strong> Mayıs 2026'da katıldığım Milli Yetkinlik Hamlesi Kampı 2 ve STM Ideathon kapsamında geliştirip raporladığım konsept proje. Kuantum tabanlı güvenli iletişim mimarileri üzerine de araştırmalar yapıyorum.</li>
+                <li><strong>Siber Vatan Programı:</strong> Siber güvenlik dünyasına sağlam bir adım atarak tamamladığım kapsamlı Linux ve ağ temelleri eğitimi.</li>
+                <li><strong>CyberRise Collective Academy:</strong> Akademi bünyesinde kurduğumuz harika takım ile Cisco Networking Academy Cup yarışma süreçlerindeki deneyimlerim.</li>
+                <li><strong>TÜBİTAK ve Akademik Katılım:</strong> ARBİS (Araştırmacı Bilgi Sistemi) kaydım bulunuyor; geçmişte TÜBİTAK 4006 Bilim Fuarları ve 4007 Bilim Şenlikleri programlarında aktif görev aldım.</li>
+                <li><strong>Sektörel Ekosistem:</strong> Girişim Express 2025 Demo Day (Konya Teknokent) ve Selçuklu Kongre Merkezi'ndeki Savunma Sanayii Kampüs programlarında geliştirdiğim sektörel ağlar.</li>
+            </ul>
+        </section>
+
+        <section id="ilgialanlari">
+            <h3>♟️ İlgi Alanları ve Sosyal Yaşam</h3>
+            <p>Teknoloji ve mühendislikten arta kalan zamanlarda dijital dünyada strateji üretmekten keyif alıyorum:</p>
+            <br>
+            <ul>
+                <li><strong>Satranç & Strateji:</strong> Chess.com platformunda <em>hopanness</em> kullanıcı adıyla aktif olarak satranç oynuyor ve taktiklerimi geliştiriyorum.</li>
+                <li><strong>Dijital Oyun Ekosistemi:</strong> League of Legends maçları ve Steam platformlarındaki yeni gelişmelerle dijital ekosistemin nabzını tutuyorum.</li>
+            </ul>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>Geleceğin savunma sanayii teknolojileri, kuantum hesaplama veya ortak projeler üzerine konuşmak isterseniz benimle her zaman iletişime geçebilirsiniz!</p>
+        <a href="mailto:ornek@email.com" class="contact-btn">Bana Ulaşın</a>
+    </footer>
+
+</body>
+</html>
